@@ -30,5 +30,5 @@ The output of the program can be interpreted as such:*/
 
 n = int(input())
 i=0
-for i in range(5): 
+for i in range(n): 
     print(i*i)
