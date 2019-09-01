@@ -1,0 +1,34 @@
+/*The criteria is:
+
+Read an integer N. For all non-negative integers i < N, print i^2. Constraints: 1 <= N <= 20
+
+To put it into simpler terms:
+
+I want a program that will take any number that is between 0 & 21. From there I want the program to print out every value starting with 0 multiplied with itself. For example if I give you the number 5, the program should print out:
+
+0
+1
+4
+9
+16
+The output of the program can be interpreted as such:*/
+
+0 x 0 = 0
+1 x 1 = 1
+2 x 2 = 4
+3 x 3 = 9
+4 x 4 = 16
+
+
+
+
+
+
+
+
+
+
+n = int(input())
+i=0
+for i in range(5): 
+    print(i*i)
